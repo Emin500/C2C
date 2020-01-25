@@ -1,0 +1,245 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+#container_facts:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  font-family:Arial, sans-serif;
+  line-height: 30px;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  border-bottom: 5px solid whitesmoke;
+}
+
+/* ///////////////////////////////////////////////////// */
+
+#main_img {
+  width:100%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 200%);
+  color: whitesmoke;
+  font-size: 150%;
+} 
+
+#logo {
+  margin-top: 3px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+.main {
+  margin-top: 30px; 
+}
+
+.info{
+  background-color: white;
+}
+
+h2.thefacts{
+margin-bottom: 5px;
+margin-top: 5px;    
+}
+
+h5.stats{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+h3.overstats{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+h2.introtitle{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+p.thefactspar{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+p.intropar{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+ul.ulclass{
+  margin-bottom:5px;
+  margin-top: 5px;
+}
+/*button*/
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    font-size: 25px;            
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.graphdesc, .calltoaction, .intropar, .thefactspar, .factslist, .stats {
+  font-size: 18px;
+}
+
+#contact-header{
+  font-size: 48px;
+}
+
+#contact {
+  height: 25%;
+  text-align: center;
+  background-color: #333;
+  color: whitesmoke;
+}
+
+iframe{
+  height: 100%;
+  width: 100%;
+  padding-top:50px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+.aboutlol{
+  padding-top:50px;
+  margin-left: 10px;
+  margin-bottom: 0px
+}
+.aboutlolpar{
+  margin-left: 10px;
+}
+.extrainfolol{
+  padding-top:50px;
+  margin-left: 10px; 
+}
